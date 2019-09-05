@@ -227,6 +227,12 @@ $('.Despl-menu').on('click','#Retornar', function(){
     localStorage.setItem("sesion", 'yes');
     welcome();
 });
+$('.Despl-menu').on('click','#Retornarsin', function(){
+    menu = 1;
+    $('.Despl-menu').animate({left:'-80%'},'show');
+    localStorage.setItem("sesion", 'inicio');
+    welcome();
+});
 $('.Despl-menu').on('click','#InicioDSesion', function(){
     menu = 1;
     $('.Despl-menu').animate({left:'-80%'},'show');

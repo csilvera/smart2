@@ -15,8 +15,7 @@ body{
     border-radius: 4px;
     width: 94%;
     height: 50px;
-    border-bottom: 1px solid #aaa;
-    box-shadow: 0 0 1em #bbb;
+    box-shadow: 0 0 3px #eee;
 }
 #opc-1{
     float: left;
@@ -32,7 +31,7 @@ body{
     border: none;
     margin-left: 4%;
     margin-top: 10px;
-    color: #FFF;
+    color: #333;
     float: left;
     font-weight: 800;
     text-align: left;
@@ -246,10 +245,10 @@ li, .tit-opc{
     border: none;
     margin-left: 2%;
     outline-style: none;
-    color: #FFF;
+    color: #333;
 }
 #Search::placeholder {
-  color: white;
+  color: #222;
 }
 
 /*Estado */
@@ -462,7 +461,7 @@ li, .tit-opc{
 
 /* When the checkbox is checked, add a blue background */
 .contain input:checked ~ .checkmark {
-  background-color: #F4511E;
+  background-color: #EEE;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
